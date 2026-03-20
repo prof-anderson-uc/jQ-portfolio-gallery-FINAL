@@ -168,6 +168,12 @@ img {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
 
+hr.line {
+  border: none;
+  border-top: 1px solid silver;
+  margin: 2rem 0 0 0;
+}
+
 /* Add extra space above smaller headings inside the explanation area. */
 .code-explanation h3 {
   margin-top: 1.5rem;
