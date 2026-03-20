@@ -186,6 +186,10 @@ hr.line {
   margin-bottom: 1.25rem;
 }
 
+.code-explanation li {
+  margin: 0 0 0.25rem 1.5rem;
+}
+
 /* Style definition list terms like mini headings. */
 .code-explanation dt {
   font-weight: bold;
