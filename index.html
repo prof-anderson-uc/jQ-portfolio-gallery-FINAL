@@ -22,38 +22,17 @@
 <body>
 
   <!-- Main page wrapper -->
-  <main class="page-wrapper">
+  <div class="wrapper">
 
     <!-- Page heading and short instructions -->
-    <header class="page-header">
+    <header>
       <h1>Project Showcase</h1>
-      <p>
-        Click a thumbnail to update the featured project.
-      </p>
+      <p> Click a thumbnail to update the featured project.</p>
     </header>
-
-    <!-- Featured project area -->
-    <section class="featured-project">
-
-      <!-- Main featured image -->
-      <img
-        id="featured-image"
-        src="images/stock01.png"
-        alt="Featured creative project"
-      >
-
-      <!-- Text content for the featured project -->
-      <div class="featured-text">
-        <h2 id="project-title">Concert Poster Campaign</h2>
-        <p id="project-description">
-          Poster design created to promote a live music event with strong typography and dramatic color contrast.
-        </p>
-      </div>
-    </section>
 
     <!-- Thumbnail gallery -->
     <section class="thumbnail-gallery">
-      <h2 class="section-heading">Project Thumbnails</h2>
+      <h2>Project Thumbnails</h2>
 
       <!-- Grid container for the thumbnails -->
       <div class="thumb-grid">
@@ -96,6 +75,27 @@
 
       </div>
     </section>
+
+    <!-- Featured project area -->
+    <section class="featured-project">
+
+      <!-- Main featured image -->
+      <img
+        id="featured-image"
+        src="images/stock01.png"
+        alt="Featured creative project"
+      >
+
+      <!-- Text content for the featured project -->
+      <div class="featured-text">
+        <h2 id="project-title">Concert Poster Campaign</h2>
+        <p id="project-description">
+          Poster design created to promote a live music event with strong typography and dramatic color contrast.
+        </p>
+      </div>
+    </section>
+
+    
 
     <!-- Explanation section -->
      <hr class="line">
@@ -227,8 +227,7 @@
 
       <h2 class="section-heading">Important IDs and Classes</h2>
       <ul>
-        <li><code>page-wrapper</code> - Main layout container for the page</li>
-        <li><code>page-header</code> - Styles the heading area at the top</li>
+        <li><code>wrapper</code> - Main layout container for the page</li>
         <li><code>featured-project</code> - Styles the featured project section</li>
         <li><code>featured-image</code> - The large image that changes when a thumbnail is clicked</li>
         <li><code>featured-text</code> - Wraps the featured title and description</li>
@@ -241,7 +240,7 @@
       </ul>
     </section>
 
-  </main>
+  </div>
 
 </body>
 </html>

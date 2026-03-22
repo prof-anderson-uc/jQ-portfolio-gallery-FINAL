@@ -2,7 +2,7 @@ $(document).ready(function () {
 
   // Wait until the page has fully loaded before running any jQuery code.
   // This helps make sure the HTML elements already exist on the page.
-  $(".thumb").click(function () {
+  $(".thumb").click(function() {
 
     // When a thumbnail is clicked, "this" refers to the thumbnail that was clicked.
 
